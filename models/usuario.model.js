@@ -17,7 +17,7 @@ email:{
    },  
   ci:{
     type: Number,
-    required:true
+    
    },  
   pasaporte:{ 
     type: String,

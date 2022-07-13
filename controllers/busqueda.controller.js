@@ -24,7 +24,6 @@ const getTodos = async( req, res = response) => {
   
     res.json({
         ok:true,
-        msg:'Busqueda de todos',
         usuarios,
         contenedor,
         bulto

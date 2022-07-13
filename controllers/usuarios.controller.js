@@ -85,7 +85,7 @@ const actualizarUsuario = async(req, res = response) =>{
             }
 
         }
-        delete campos.rol;
+        
         const usuarioActualizado = await Usuario.findByIdAndUpdate(uid, campos, {new:true})
 
 
